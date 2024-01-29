@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 <head>
     <meta charset="UTF-8">
     <title>formulaire_420_3p2</title>
@@ -7,6 +7,42 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+<h1>Formulaire de payement</h1>
+<h2> information de contact</h2>
+<p>Nom: </p><input type="text" name="Nom" size="29" maxlength="40"><br></p>
+<p>Couriel</p><input type="text" name="Nom" size="29" maxlength="40"><br></p>
+
+
+<p>Province</p><select name="province" size="">
+    <option value="       "></option>
+    <option value=""></option>  <!-- pas necessaire de mettre les les names et les id -->
+    <option value=""></option>
+    <option value=""></option>
+    <option value=""></option>
+    <option value=""></option>
+    <option value=""></option>
+    <option value=""></option>
+    <br></select>
+<h2>Information de paiement</h2>
+<form action="">
+    <p>Type de payement :</p>
+    <div id="radiosheck">
+             <input type="radio" name="Visa" value="Visa">Visa
+            <input type="radio" name="Mastercard" value="Mastercard" >MasterCard    <!-- c'esi le nom identique = une seule reponse -->
+            <input type="radio" name="American Express" value="American Express" >American Express
+
+    </div>
+</form>
+
+
+<p>Numéro :</p><input type="number" name="Numéro :" size="29" maxlength="40"><br></p>
+<h2>Informations de livraison</h2>
+<input type="checkbox" name="signature" id="q4-7" value="Signature requise"> Signature requise<br>
+<input type="checkbox" name="livraison" id="q4-8" value="Livrer à la même adresse que l'adresse de payement">Livrer à la même adresse que l'adresse de payement<br>
+<form>
+    <input type="submit" value="Envoyer"/><button type="reset">Annuler</button></div>
+</form>
+
 
 </body>
 </html>
